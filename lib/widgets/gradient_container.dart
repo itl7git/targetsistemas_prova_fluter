@@ -13,6 +13,7 @@ class _GradientContainerState extends State<GradientContainer> {
   @override
   Widget build(BuildContext context) {
     return Container(
+      alignment: Alignment.center,
       decoration: const BoxDecoration(
         gradient: LinearGradient(
           begin: Alignment.topCenter,
